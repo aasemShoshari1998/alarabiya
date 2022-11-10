@@ -1,6 +1,5 @@
 import { languageObject } from "./modules/languageObject";
 import { themeObject } from "./modules/themeObject";
-import { changeLanguage } from "./modules/changeLanguage";
 
 export const changeLanguage = () => {
   const logo = document.querySelectorAll(".logo,.footer-logo");

@@ -1,5 +1,4 @@
 import { themeObject } from "./modules/themeObject";
-import { changeTheme } from "./modules/changeTheme";
 
 export const changeTheme = (e) => {
   const theme = document.querySelector(".theme");

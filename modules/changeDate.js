@@ -1,5 +1,3 @@
-import { changeDate } from "./modules/changeDate";
-
 export const changeDate = () => {
   const date = document.querySelector(".date");
   const year = new Date().getFullYear();
