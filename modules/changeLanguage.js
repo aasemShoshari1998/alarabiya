@@ -1,5 +1,5 @@
-import { languageObject } from "./modules/languageObject";
-import { themeObject } from "./modules/themeObject";
+import { languageObject } from "https://aasemshoshari1998.github.io/alarabiya/modules/languageObject";
+import { themeObject } from "https://aasemshoshari1998.github.io/alarabiya/modules/themeObject";
 
 export const changeLanguage = () => {
   const logo = document.querySelectorAll(".logo,.footer-logo");
