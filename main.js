@@ -1,7 +1,6 @@
 import { changeDate } from "./modules/changeDate";
 import { changeTheme } from "./modules/changeTheme";
 import { changeLanguage } from "./modules/changeLanguage";
-console.log(changeDate);
 const dark = document.querySelector(".dark");
 const light = document.querySelector(".light");
 
