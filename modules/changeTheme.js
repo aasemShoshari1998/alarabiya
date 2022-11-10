@@ -9,6 +9,9 @@ export const changeTheme = (e) => {
   const mainSectionAsideElementSpan = document.querySelectorAll(
     ".main-section-aside-element-span"
   );
+  const thirdSectionArticleElementInfosBottomLeft = document.querySelectorAll(
+    ".third-section-article-element-infos-bottom-left"
+  );
   const copyRight = document.querySelector(".copyright");
   document.body.style.backgroundColor = `${
     themeObject[localStorage.getItem("theme")].bodyBg
