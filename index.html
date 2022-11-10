@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>العربية | أبرز الأخبار العالمية والمحلية العاجلة</title>
+    <script src="carousel.js" defer></script>
+    <script type="module" src="main.js"></script>
+    <script src="stickyNav.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="doc-icon.jpg" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="query.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="date-and-language">
+        <span class="date"></span>
+      </div>
+      <div class="main-header">
+        <a href="#" class="logo-container">
+          <img src="logo-ar-dark.png" alt="logo" class="logo" />
+        </a>
+
+        <div class="main-header-options">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="theme">
+            <i class="fa-solid fa-lightbulb light"></i>
+            <i class="fa-regular fa-lightbulb dark on"></i>
+          </div>
+          <button type="button" class="live-btn">
+            مباشر
+            <i class="fa-solid fa-tower-broadcast"></i>
+          </button>
+          <a href="#" class="alhadath-container">
+            <img src="alhadath-dark.png" alt="alhadath" class="alhadath" />
+          </a>
+        </div>
+      </div>
+      <nav class="nav-container">
+        <ul class="nav"></ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-section">
+        <!-- Slideshow container -->
+        <article class="slideshow-container">
+          <figure class="slideshow">
+            <!-- Full-width images with number and caption text -->
+            <article class="mySlides fade">
+              <img
+                src="https://vid.alarabiya.net/images/2022/11/04/eea0fe2e-660f-4499-94d4-4e5c1f31bbf8/eea0fe2e-660f-4499-94d4-4e5c1f31bbf8_16x9_1200x676.JPG?width=816&format=jpg"
+                style="width: 100%"
+                class="carousel-img"
+              />
+              <figcaption class="caption-text"></figcaption>
+            </article>
+
+            <article class="mySlides fade">
+              <img
+                src="https://vid.alarabiya.net/images/2022/11/02/fcb9b0a7-aed7-4762-b9bb-cb5e80a40e1d/fcb9b0a7-aed7-4762-b9bb-cb5e80a40e1d_16x9_1200x676.jpg?width=816&format=jpg"
+                style="width: 100%"
+                class="carousel-img"
+              />
+              <figcaption class="caption-text">
+                تظاهرات ليلية في مدن إيرانية.. والأمن يواجه المحتجين بالرصاص
+                الحي
+              </figcaption>
+            </article>
+
+            <article class="mySlides fade">
+              <img
+                src="https://vid.alarabiya.net/images/2022/11/04/1ae260f5-76b3-40c7-ac7e-cc46249cb4b6/1ae260f5-76b3-40c7-ac7e-cc46249cb4b6_16x9_1200x676.jpg?width=816&format=jpg"
+                style="width: 100%"
+                class="carousel-img"
+              />
+              <figcaption class="caption-text">
+                أمين عام الناتو: لن نقبل خطط إيران لتزويد روسيا بمسيرات وصواريخ
+              </figcaption>
+            </article>
+
+            <article class="mySlides fade">
+              <img
+                src="https://vid.alarabiya.net/images/2022/08/07/131cb297-69b4-4432-b65e-eb452b7078c1/131cb297-69b4-4432-b65e-eb452b7078c1_16x9_1200x676.jpg?width=816&format=jpg"
+                style="width: 100%"
+                class="carousel-img"
+              />
+              <figcaption class="caption-text">
+                الطائرات الإسرائيلية تقصف عدة مواقع في وسط غزة
+              </figcaption>
+            </article>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </figure>
+          <br />
+
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+        </article>
+        <aside class="main-section-aside">
+          <article class="main-section-aside-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/10/21/b2830653-fce1-4c76-a929-3530157eb447/b2830653-fce1-4c76-a929-3530157eb447_4x3_690x515.jpg?crop=1:1&width=104"
+              alt="usa elections"
+              class="main-section-aside-element-img"
+            />
+            <p class="main-section-aside-element-paragraph">
+              <span class="main-section-aside-element-span"
+                >الانتخابات الأمريكية</span
+              >
+              بايدن يتقدم حملته الانتخابية في محاولة لإنقاذ الديموقراطيين
+            </p>
+          </article>
+          <article class="main-section-aside-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/04/f61ab730-5bf5-427a-9e0a-8e7f02e5682d/f61ab730-5bf5-427a-9e0a-8e7f02e5682d_4x3_690x515.jpg?crop=1:1&width=104"
+              alt="britain"
+              class="main-section-aside-element-img"
+            />
+            <p class="main-section-aside-element-paragraph">
+              <span class="main-section-aside-element-span">بريطانيا</span>
+              ساعات قليلة فصلت الاقتصاد البريطاني عن انهيار مالي شامل بأكتوبر
+            </p>
+          </article>
+
+          <article class="main-section-aside-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/04/1a99c535-ab11-49db-a98e-1bc7ff7dc47a/1a99c535-ab11-49db-a98e-1bc7ff7dc47a_4x3_690x515.jpg?crop=1:1&width=104"
+              alt="twitter"
+              class="main-section-aside-element-img"
+            />
+            <p class="main-section-aside-element-paragraph">
+              <span class="main-section-aside-element-span">تويتر</span>
+              ماسك يلغي "العمل عن بعد" ويخطط لمجزرة جماعية بالموظفين
+            </p>
+          </article>
+
+          <article class="main-section-aside-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/04/f3b7fb34-d756-4372-96ed-9d96c8555b2a/f3b7fb34-d756-4372-96ed-9d96c8555b2a_4x3_690x515.JPG?crop=1:1&width=104"
+              alt="space"
+              class="main-section-aside-element-img"
+            />
+            <p class="main-section-aside-element-paragraph">
+              <span class="main-section-aside-element-span">القضاء</span>
+              للمرة الرابعة.. صاروخ صيني يخرج عن السيطرة ويرتطم بالأرض خلال
+              ساعات
+            </p>
+          </article>
+        </aside>
+      </section>
+      <section class="section-second">
+        <h1 class="section-second-title">
+          الأخبار <i class="fa-solid fa-angle-left"></i>
+        </h1>
+
+        <article class="section-second-article">
+          <article class="section-second-article-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/04/31056424-0019-4eda-8f98-0cad92d1b755/31056424-0019-4eda-8f98-0cad92d1b755_16x9_1200x676.JPG?width=335&format=jpg"
+              alt=""
+              class="section-second-article-element-img"
+            />
+            <p class="section-second-article-element-paragraph">
+              <span class="main-section-aside-element-span">خاص</span>
+              أمير مصري: نجاحي بالسينما العالمية لا يتعارض مع تواجدي بالساحة
+              المصرية
+            </p>
+          </article>
+
+          <article class="section-second-article-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/04/39155edc-6463-43d0-ab1b-1c9e9ebbee65/39155edc-6463-43d0-ab1b-1c9e9ebbee65_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="section-second-article-element-img"
+            />
+            <p class="section-second-article-element-paragraph">
+              <span class="main-section-aside-element-span">مصر</span>
+              مصرع وإصابة 30 شخصا في حادث سير مروع جنوب مصر
+            </p>
+          </article>
+
+          <article class="section-second-article-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/04/39155edc-6463-43d0-ab1b-1c9e9ebbee65/39155edc-6463-43d0-ab1b-1c9e9ebbee65_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="section-second-article-element-img"
+            />
+            <p class="section-second-article-element-paragraph">
+              <span class="main-section-aside-element-span"
+                >احتجاجات إيران</span
+              >
+              في خطاب انتخابي بالساحل الغربي.. بايدن يتعهد "بتحيرير" إيران
+            </p>
+          </article>
+
+          <article class="section-second-article-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/03/cb67ab77-a103-4cf5-ae4c-dd48c4186503/cb67ab77-a103-4cf5-ae4c-dd48c4186503_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="section-second-article-element-img"
+            />
+            <p class="section-second-article-element-paragraph">
+              <span class="main-section-aside-element-span">باكستان</span>
+              خان يتهم رئيس الوزراء الباكستاني بمحاولة اغتياله وواشنطن تحذر من
+              العنف
+            </p>
+          </article>
+          <article class="section-second-article-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/04/31056424-0019-4eda-8f98-0cad92d1b755/31056424-0019-4eda-8f98-0cad92d1b755_16x9_1200x676.JPG?width=335&format=jpg"
+              alt=""
+              class="section-second-article-element-img"
+            />
+            <p class="section-second-article-element-paragraph">
+              <span class="main-section-aside-element-span">خاص</span>
+              أمير مصري: نجاحي بالسينما العالمية لا يتعارض مع تواجدي بالساحة
+              المصرية
+            </p>
+          </article>
+
+          <article class="section-second-article-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/04/39155edc-6463-43d0-ab1b-1c9e9ebbee65/39155edc-6463-43d0-ab1b-1c9e9ebbee65_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="section-second-article-element-img"
+            />
+            <p class="section-second-article-element-paragraph">
+              <span class="main-section-aside-element-span">مصر</span>
+              مصرع وإصابة 30 شخصا في حادث سير مروع جنوب مصر
+            </p>
+          </article>
+
+          <article class="section-second-article-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/04/39155edc-6463-43d0-ab1b-1c9e9ebbee65/39155edc-6463-43d0-ab1b-1c9e9ebbee65_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="section-second-article-element-img"
+            />
+            <p class="section-second-article-element-paragraph">
+              <span class="main-section-aside-element-span"
+                >احتجاجات إيران</span
+              >
+              في خطاب انتخابي بالساحل الغربي.. بايدن يتعهد "بتحيرير" إيران
+            </p>
+          </article>
+
+          <article class="section-second-article-element">
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/03/cb67ab77-a103-4cf5-ae4c-dd48c4186503/cb67ab77-a103-4cf5-ae4c-dd48c4186503_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="section-second-article-element-img"
+            />
+            <p class="section-second-article-element-paragraph">
+              <span class="main-section-aside-element-span">باكستان</span>
+              خان يتهم رئيس الوزراء الباكستاني بمحاولة اغتياله وواشنطن تحذر من
+              العنف
+            </p>
+          </article>
+        </article>
+        <h1 class="section-second-title" style="text-align: left">
+          المزيد <i class="fa-solid fa-angle-left"></i>
+        </h1>
+      </section>
+      <section class="third-section">
+        <header class="third-section-header">
+          <div class="third-section-header-right">
+            <h2
+              style="
+                color: #e91818;
+                border-bottom: 4px solid #e91818;
+                cursor: pointer;
+              "
+            >
+              الأكثر قراءة
+            </h2>
+            <h2 style="cursor: pointer">مواضيع شائعة</h2>
+          </div>
+          <div class="third-section-header-left">
+            <button type="button" class="today">اليوم</button>
+            <button type="button" class="this-week">الأسبوع</button>
+          </div>
+        </header>
+        <article class="third-section-article">
+          <article class="third-section-article-element">
+            <h1 class="third-section-article-element-number">1</h1>
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/03/71c35994-bd30-47c4-896a-dc66d5b8b000/71c35994-bd30-47c4-896a-dc66d5b8b000_16x9_1200x676.PNG?width=335&format=jpg"
+              alt=""
+              class="third-section-article-element-img"
+            />
+            <div class="third-section-article-element-infos">
+              <div class="third-section-article-element-infos-title">
+                أمامك 7 ثوان فقط للعثور على الكنز المخفي في أعماق البحر
+              </div>
+              <div class="third-section-article-element-infos-bottom">
+                <p class="third-section-article-element-infos-bottom-right">
+                  الأخيرة
+                </p>
+                <a class="third-section-article-element-infos-bottom-left">
+                  <i class="fa-solid fa-eye"></i> 51,122 مشاهدة
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="third-section-article-element">
+            <h1 class="third-section-article-element-number">2</h1>
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/03/987bd3c0-e5b2-44db-a5e8-73f3917d878f/987bd3c0-e5b2-44db-a5e8-73f3917d878f_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="third-section-article-element-img"
+            />
+            <div class="third-section-article-element-infos">
+              <div class="third-section-article-element-infos-title">
+                !مفاجأة.. شيرين عبدالوهاب في منزلها
+              </div>
+              <div class="third-section-article-element-infos-bottom">
+                <p class="third-section-article-element-infos-bottom-right">
+                  ثقافة وفن
+                </p>
+                <a class="third-section-article-element-infos-bottom-left">
+                  <i class="fa-solid fa-eye"></i> 34,902 مشاهدة
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="third-section-article-element">
+            <h1 class="third-section-article-element-number">3</h1>
+            <img
+              src="https://vid.alarabiya.net/images/2022/10/27/a60ccbb3-6e0e-42a4-ac12-f851a52bea8c/a60ccbb3-6e0e-42a4-ac12-f851a52bea8c_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="third-section-article-element-img"
+            />
+            <div class="third-section-article-element-infos">
+              <div class="third-section-article-element-infos-title">
+                بعد مشكلته مع شاكيرا.. بيكيه يعلن إعتزاله كرة القدم
+              </div>
+              <div class="third-section-article-element-infos-bottom">
+                <p class="third-section-article-element-infos-bottom-right">
+                  رياضة عالمية
+                </p>
+                <a class="third-section-article-element-infos-bottom-left">
+                  <i class="fa-solid fa-eye"></i> مشاهدة 34,902
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="third-section-article-element">
+            <h1 class="third-section-article-element-number">4</h1>
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/03/71c35994-bd30-47c4-896a-dc66d5b8b000/71c35994-bd30-47c4-896a-dc66d5b8b000_16x9_1200x676.PNG?width=335&format=jpg"
+              alt=""
+              class="third-section-article-element-img"
+            />
+            <div class="third-section-article-element-infos">
+              <div class="third-section-article-element-infos-title">
+                أمامك 7 ثوان فقط للعثور على الكنز المخفي في أعماق البحر
+              </div>
+              <div class="third-section-article-element-infos-bottom">
+                <p class="third-section-article-element-infos-bottom-right">
+                  الأخيرة
+                </p>
+                <a class="third-section-article-element-infos-bottom-left">
+                  <i class="fa-solid fa-eye"></i> 51,122 مشاهدة
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="third-section-article-element">
+            <h1 class="third-section-article-element-number">5</h1>
+            <img
+              src="https://vid.alarabiya.net/images/2022/11/03/987bd3c0-e5b2-44db-a5e8-73f3917d878f/987bd3c0-e5b2-44db-a5e8-73f3917d878f_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="third-section-article-element-img"
+            />
+            <div class="third-section-article-element-infos">
+              <div class="third-section-article-element-infos-title">
+                !مفاجأة.. شيرين عبدالوهاب في منزلها
+              </div>
+              <div class="third-section-article-element-infos-bottom">
+                <p class="third-section-article-element-infos-bottom-right">
+                  ثقافة وفن
+                </p>
+                <a class="third-section-article-element-infos-bottom-left">
+                  <i class="fa-solid fa-eye"></i> مشاهدة 34,902
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="third-section-article-element">
+            <h1 class="third-section-article-element-number">6</h1>
+            <img
+              src="https://vid.alarabiya.net/images/2022/10/27/a60ccbb3-6e0e-42a4-ac12-f851a52bea8c/a60ccbb3-6e0e-42a4-ac12-f851a52bea8c_16x9_1200x676.jpg?width=335&format=jpg"
+              alt=""
+              class="third-section-article-element-img"
+            />
+            <div class="third-section-article-element-infos">
+              <div class="third-section-article-element-infos-title">
+                بعد مشكلته مع شاكيرا.. بيكيه يعلن إعتزاله كرة القدم
+              </div>
+              <div class="third-section-article-element-infos-bottom">
+                <p class="third-section-article-element-infos-bottom-right">
+                  رياضة عالمية
+                </p>
+                <a class="third-section-article-element-infos-bottom-left">
+                  <i class="fa-solid fa-eye"></i> مشاهدة 34,902
+                </a>
+              </div>
+            </div>
+          </article>
+        </article>
+      </section>
+
+      <section class="fourth-section">
+        <article class="fourth-section-article">
+          <h1 class="section-second-title">
+            السعودية <i class="fa-solid fa-angle-left"></i>
+          </h1>
+          <article class="fourth-section-article-top">
+            <article class="fourth-section-article-top-right">
+              <img
+                src="https://vid.alarabiya.net/images/2022/11/04/787d540d-9b93-474a-80e9-e25d5d0fcdfb/787d540d-9b93-474a-80e9-e25d5d0fcdfb_16x9_1200x676.jpeg?width=335&format=jpg"
+                alt=""
+                class="fourth-section-article-top-right-img"
+              />
+              <p class="fourth-section-article-top-right-paragraph">
+                السعودية: إحباط تهريب أكثر من 3.2 مليون حبة كبتاغون
+              </p>
+            </article>
+            <article class="fourth-section-article-top-right">
+              <img
+                src="https://vid.alarabiya.net/images/2022/11/04/3a734193-d509-4469-ab5d-381b3839f4c6/3a734193-d509-4469-ab5d-381b3839f4c6_16x9_1200x676.jpg?width=335&format=jpg"
+                alt=""
+                class="fourth-section-article-top-right-img"
+              />
+              <p class="fourth-section-article-top-right-paragraph">
+                مزاد على لوحات رسمها مصابون بالتوحد يجمع 6.5 مليون ريال
+              </p>
+            </article>
+          </article>
+          <article class="fourth-section-article-bottom">
+            <article class="fourth-section-article-bottom-top">
+              <img
+                src="https://vid.alarabiya.net/images/2022/11/04/1cfdb9fe-0eab-4b42-8423-1422763a31c0/1cfdb9fe-0eab-4b42-8423-1422763a31c0_16x9_788x442.jpeg?format=jpg"
+                alt=""
+                class="fourth-section-article-bottom-top-img"
+              />
+              <p class="fourth-section-article-bottom-top-paragraph">
+                إصابة اثنين في حريق اندلع بناقلة وقود بالمدينة المنورة
+              </p>
+            </article>
+            <article class="fourth-section-article-bottom-top">
+              <img
+                src="https://vid.alarabiya.net/images/2021/01/21/86d29c86-4ab3-4a8e-9ebd-55378129fc73/86d29c86-4ab3-4a8e-9ebd-55378129fc73_16x9_788x442.jpg?format=jpg"
+                alt=""
+                class="fourth-section-article-bottom-top-img"
+              />
+              <p class="fourth-section-article-bottom-top-paragraph">
+                <span class="main-section-aside-element-span">باكستان</span>
+                السعودية تدين بشدة محاولة اغتيال عمران خان
+              </p>
+            </article>
+          </article>
+        </article>
+        <article class="fourth-section-article">
+          <h1 class="section-second-title">
+            أسواق <i class="fa-solid fa-angle-left"></i>
+          </h1>
+          <article class="fourth-section-article-top">
+            <article class="fourth-section-article-top-right">
+              <img
+                src="https://vid.alarabiya.net/images/2022/11/04/787d540d-9b93-474a-80e9-e25d5d0fcdfb/787d540d-9b93-474a-80e9-e25d5d0fcdfb_16x9_1200x676.jpeg?width=335&format=jpg"
+                alt=""
+                class="fourth-section-article-top-right-img"
+              />
+              <p class="fourth-section-article-top-right-paragraph">
+                السعودية: إحباط تهريب أكثر من 3.2 مليون حبة كبتاغون
+              </p>
+            </article>
+            <article class="fourth-section-article-top-right">
+              <img
+                src="https://vid.alarabiya.net/images/2022/11/04/3a734193-d509-4469-ab5d-381b3839f4c6/3a734193-d509-4469-ab5d-381b3839f4c6_16x9_1200x676.jpg?width=335&format=jpg"
+                alt=""
+                class="fourth-section-article-top-right-img"
+              />
+              <p class="fourth-section-article-top-right-paragraph">
+                مزاد على لوحات رسمها مصابون بالتوحد يجمع 6.5 مليون ريال
+              </p>
+            </article>
+          </article>
+          <article class="fourth-section-article-bottom">
+            <article class="fourth-section-article-bottom-top">
+              <img
+                src="https://vid.alarabiya.net/images/2022/11/04/1cfdb9fe-0eab-4b42-8423-1422763a31c0/1cfdb9fe-0eab-4b42-8423-1422763a31c0_16x9_788x442.jpeg?format=jpg"
+                alt=""
+                class="fourth-section-article-bottom-top-img"
+              />
+              <p class="fourth-section-article-bottom-top-paragraph">
+                إصابة اثنين في حريق اندلع بناقلة وقود بالمدينة المنورة
+              </p>
+            </article>
+            <article class="fourth-section-article-bottom-top">
+              <img
+                src="https://vid.alarabiya.net/images/2021/01/21/86d29c86-4ab3-4a8e-9ebd-55378129fc73/86d29c86-4ab3-4a8e-9ebd-55378129fc73_16x9_788x442.jpg?format=jpg"
+                alt=""
+                class="fourth-section-article-bottom-top-img"
+              />
+              <p class="fourth-section-article-bottom-top-paragraph">
+                <span class="main-section-aside-element-span">باكستان</span>
+                السعودية تدين بشدة محاولة اغتيال عمران خان
+              </p>
+            </article>
+          </article>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="#" class="up">
+        <span class="up-span"></span>
+        <i class="fa-solid fa-angle-up" style="font-size: 1.4rem"></i>
+      </a>
+      <div class="footer-logo-container">
+        <a href="#">
+          <img src="logo-ar-dark.png" alt="" class="footer-logo" />
+        </a>
+      </div>
+      <nav class="footer-nav-container">
+        <ul class="footer-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-item-header">اخبار</a>
+            <ul class="embedded-nav">
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">العرب والعالم</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">الخليج العربي</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">رياضة</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">سوريا</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">مصر</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">أميركا</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">إيران</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">العراق</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-item-header">السعودية</a>
+            <ul class="embedded-nav">
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">الأخبار</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">نشرة الرابعة</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">رياضة</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">الآراء</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-item-header">رياضة</a>
+            <ul class="embedded-nav">
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">رياضة سعودية</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">رياضة عربية</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">رياضة عالمية</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">رياضات أخرى</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link"> الآراء</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-item-header">منوعات</a>
+            <ul class="embedded-nav">
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">صحة</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">تكنولوجيا</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">سوشيال ميديا</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">ستايل</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">علم</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-item-header">العربية TV</a>
+            <ul class="embedded-nav">
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">فيديو العربية</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">العربية ميديا</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">برامج العربية</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-item-header">مقالات</a>
+            <ul class="embedded-nav">
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">آراء سياسية</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">آراء رياضية</a>
+              </li>
+              <li class="embedded-nav-item">
+                <a href="#" class="embedded-nav-item-link">آراء سعودية</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-item-header">الآخيرة</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-item-header">بودكاست</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="follow-us">
+        <a href="#"
+          ><i
+            class="fa-brands fa-facebook follow-us-icon"
+            style="color: #4267b2"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-brands fa-twitter follow-us-icon"
+            style="color: #1da1f2"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-brands fa-instagram follow-us-icon"
+            style="color: rgb(245, 96, 64)"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-brands fa-snapchat follow-us-icon"
+            style="color: #fffc00"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-brands fa-youtube follow-us-icon"
+            style="color: #ff0000"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-brands fa-telegram follow-us-icon"
+            style="color: #2aabee"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-brands fa-linkedin follow-us-icon"
+            style="color: #0a66c2"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="fa-brands fa-flipboard follow-us-icon"
+            style="color: #e12828"
+          ></i
+        ></a>
+      </div>
+      <div class="copyright"></div>
+    </footer>
+  </body>
+</html>
