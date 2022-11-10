@@ -1,6 +1,6 @@
-import { changeDate } from "https://aasemshoshari1998.github.io/alarabiya/modules/changeDate";
-import { changeTheme } from "https://aasemshoshari1998.github.io/alarabiya/modules/changeTheme";
-import { changeLanguage } from "https://aasemshoshari1998.github.io/alarabiya/modules/changeLanguage";
+import { changeDate } from "https://aasemshoshari1998.github.io/alarabiya/modules/changeDate.js";
+import { changeTheme } from "https://aasemshoshari1998.github.io/alarabiya/modules/changeTheme.js";
+import { changeLanguage } from "https://aasemshoshari1998.github.io/alarabiya/modules/changeLanguage.js";
 const dark = document.querySelector(".dark");
 const light = document.querySelector(".light");
 

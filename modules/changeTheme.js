@@ -1,4 +1,4 @@
-import { themeObject } from "https://aasemshoshari1998.github.io/alarabiya/modules/themeObject";
+import { themeObject } from "https://aasemshoshari1998.github.io/alarabiya/modules/themeObject.js";
 
 export const changeTheme = (e) => {
   const theme = document.querySelector(".theme");
