@@ -1,3 +1,6 @@
+import { changeDate } from "../modules/changeDate.js";
+import { changeLanguage } from "../modules/changeLanguage.js";
+
 const toggleLanguage = (e) => {
   const languageOptions = document.querySelector(".language-options");
 

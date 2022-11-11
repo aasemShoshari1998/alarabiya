@@ -1,3 +1,5 @@
+import { changeTheme } from "../modules/changeTheme.js";
+
 const dark = document.querySelector(".dark");
 const light = document.querySelector(".light");
 
