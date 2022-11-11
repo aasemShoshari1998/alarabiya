@@ -2,7 +2,8 @@
   html {
     font-size: 56.25%;
   }
-  .main-section {
+  .main-section,
+  .main-section-aside-element {
     flex-direction: column;
   }
   .main-section-aside {
@@ -11,47 +12,95 @@
     padding: 6rem 0;
     gap: 0 3rem;
   }
-  .main-section-aside-element {
-    flex-direction: column;
-  }
-  .main-section-aside-element-img {
-    width: 100%;
-    height: 130px;
-  }
+
   .slideshow-container {
     width: 100%;
   }
   .third-section-article {
     grid-template-columns: repeat(1, 1fr);
   }
-  .third-section-article-element-img {
-    width: 20%;
-  }
+
   .third-section-article-element-infos-bottom {
     justify-content: stretch;
     gap: 0 5rem;
+  }
+  .nav-container {
+    overflow-x: scroll;
+  }
+  .nav-item,
+  .live-btn {
+    white-space: nowrap;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .main-section-aside,
-  .section-second-article {
+  .section-second-article,
+  .fourth-section-article-top {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
   }
-  .main-section-aside-element-img {
-    height: 200px;
-  }
   .fourth-section-article-top {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 5rem 0;
   }
-  .fourth-section-article-top-right-img {
-    height: 100%;
-  }
+
   .fourth-section {
     gap: 0 5rem;
+  }
+  .embedded-nav {
+    display: none;
+  }
+  .main-section-aside-element-img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-section-aside,
+  .section-second-article {
+    grid-template-columns: 1fr;
+  }
+
+  .fourth-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .nav-item-link:last-child {
+    margin-right: 8px;
+  }
+}
+
+@media only screen and (max-width: 579px) {
+  html {
+    font-size: 50%;
+  }
+  .theme,
+  .alhadath-container {
+    display: none !important;
+  }
+
+  .section-second-title {
+    margin: 4px;
+  }
+  .third-section-article-element,
+  .third-section-article-element-infos,
+  .footer-nav,
+  .third-section-header,
+  .fourth-section-article-bottom-top {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .third-section-article-element-img {
+    width: 100%;
+  }
+
+  .third-section-article-element-number {
+    text-align: center;
+  }
+  .caption-text {
+    font-size: 1.6rem;
+    padding: 4px;
   }
 }
